@@ -28,15 +28,15 @@ body {
     align-items: center;
     justify-items: center;
     /* min-height: 70vh; */
-    min-width: 100vh;
+    min-width: 80vh;
     padding-left: 80px;
     /* padding-right: 30px; */
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10%;
+    margin-right: 5%;
     margin-top: 200px;
     margin-bottom: 200px;
     width: 80%;
@@ -95,5 +95,14 @@ body {
   }
 
   input {
-    width: 600px;
+    width: 80%;
+  }
+
+
+  @media(max-width:1300px) {
+
+    .settings {
+      display: flex;
+      flex-direction: column;
+    }
   }
