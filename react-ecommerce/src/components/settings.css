@@ -18,6 +18,8 @@ body {
   outline: none;
   text-transform: capitalize;
   transition: all .2s linear;
+  align-items: center;
+  justify-items: center;
 
 }
 
@@ -25,8 +27,8 @@ body {
     display: flex;
     align-items: center;
     justify-items: center;
-    margin-top: 40px;
-    min-height: 60vh;
+    /* min-height: 70vh; */
+    min-width: 100vh;
     padding-left: 80px;
     /* padding-right: 30px; */
     background-color: white;
@@ -37,6 +39,7 @@ body {
     margin-right: 200px;
     margin-top: 200px;
     margin-bottom: 200px;
+    width: 80%;
     border-radius: 20px;
 }
 
@@ -86,8 +89,9 @@ body {
   .accountSetting {
     padding-top: 40px;
     padding-bottom: 30px;
+    padding-right: 50px;
     padding-left: 50px;
-    width: 70%;
+    width: 90%;
   }
 
   input {

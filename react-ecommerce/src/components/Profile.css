@@ -23,8 +23,12 @@ body {
 }
 
 .main{
+
+    margin-top: 9%;
     width: 100%;
     height: 100vh;
+    min-width: 80vh;
+    /* min-height: 70vh; */
     display: flex;
     align-items: center;
     justify-content: center;

@@ -2,8 +2,7 @@ import React from 'react'
 import './Cart.css'
 import "./Orderpage.css"
 import { useState } from 'react'
-import toast, { Toaster } from 'react-hot-toast'
-  import { usePaystackPayment } from 'react-paystack';
+import { usePaystackPayment } from 'react-paystack';
 
 function Cart() {
         // payment
